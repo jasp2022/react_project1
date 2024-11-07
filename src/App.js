@@ -1,10 +1,12 @@
-import React from "react";
-import Saludo from "./components/saludo";
+// App.js
+import React from 'react';
+import './App.css';
+import Login from './Login';
 
 function App() {
   return (
     <div className="App">
-      <Saludo nombre="Jesus Silva" />
+      <Login />
     </div>
   );
 }
